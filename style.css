@@ -1,0 +1,475 @@
+#container{
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo{
+        width:160px
+}
+.listItems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(227, 217, 217);
+    font-weight: 600;
+}
+/* action mouse over icon/text on navebar */
+.links:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.contain{
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    position: relative;
+   
+}
+#q{
+    padding-left: 800px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    font-style: italic;
+}
+#w{
+    padding-left: 800px;
+    margin-top: 150px;
+    position: absolute;
+    color: white;
+    font-style: italic;
+}
+#e{
+    padding-left: 800px;
+    margin-top: 200px;
+    position: absolute;
+    color: white;
+    font-style: italic;
+}
+#r{
+    padding-left: 800px;
+    margin-top: 250px;
+    position: absolute;
+    color: white;
+    font-style: italic;
+}
+button{
+    position: absolute;
+    margin-left: 100px;
+    top: 500px;
+    margin-top: 400px;
+    background-color: rgba(213, 36, 36, 0.557);
+}
+#butt{
+    top: 1100px;
+    left: 600px;
+}
+.north{
+    display: flex;
+    flex-direction: row; /* Row layout */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color:white;
+}
+.contains {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(173, 34, 192, 0.402);
+    color: white;
+    font-size: 30px;
+    margin: 27px;
+    /* margin-top: 80px; */
+    /* margin-left: 27px;
+    margin-right: 27px; */
+   border-radius: 20px;
+    flex-shrink: 0; /* Prevents shrinking */
+}
+.group1{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    position: relative;
+    transition: transform .2s;
+}
+.group1:hover{
+    transform: scale(1.2);
+}
+.northe{
+    display: flex;
+    flex-direction: row; /* Row layout */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color:white;
+}
+.containss {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(244, 243, 245);
+    color: white;
+    font-size: 30px;
+    
+    /* margin-top: 80px; */
+    margin-left: 87px;
+    margin-right: 27px;
+   border-radius: 20px;
+    flex-shrink: 0; /* Prevents shrinking */
+}
+.group1s{
+    /* margin-top: 20px; */
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    position: relative;
+    transition: transform .2s;
+}
+.group1s:hover{
+    transform: scale(1.2);
+}
+#no{
+    padding-left: 400px;
+}
+#ov{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+#uu{
+    font-size: 15px;
+    padding-left: 40px;
+}
+.northes{
+    display: flex;
+    flex-direction: row; /* Row layout */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color:white;
+}
+.containsss {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(57, 13, 101);
+    color: white;
+    font-size: 30px;
+    
+    /* margin-top: 80px; */
+   margin-left: 170px;
+  
+   border-radius: 20px;
+    flex-shrink: 0; /* Prevents shrinking */
+}
+.group1ss{
+    /* margin-top: 20px; */
+    width: 250px;
+    height: 200px;
+    /* border-radius: 25px; */
+    position: relative;
+    transition: transform .2s;
+}
+.group1ss:hover{
+    transform: scale(1.2);
+}
+#no{
+    padding-left: 400px;
+}
+#ovs{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+#uus{
+    padding-top: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    color: black;
+}
+.brands{
+    color: black;
+    font-size: 15px;
+    
+}
+h6{
+    padding-left: 600px;
+   
+}
+.south{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+}
+.frst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+  margin-right: 10px;
+  
+}
+.footer{
+    /* left: 100px; */
+    background-color: white;
+    color:black;
+}
+.footer h5{
+    font-weight: 600;
+    padding-left: 70px;
+}
+.sis{
+    padding-left: 60px;
+}
+.footer h3{
+    padding-left: 70px;
+    font-weight: 100;
+    font-size: 20px;
+} 
+@media (max-width: 412px) {
+
+    #container {
+        width: 812px; /* Use 100% width for the container */
+        padding: 10px; /* Add padding for some spacing */
+        /* background-image: url(./images/background.jpg); */
+        background-color: pink;
+        height: 3000px;
+    }
+
+    .contain {
+        text-align: center; /* Center text for better readability */
+        padding: 10px; /* Add some padding */
+        /* background-image: url(./images/background.jpg); */
+        width: 812px;
+        background-size: cover;
+        background-attachment: fixed;
+        /* height: 2000px; */
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center; /* Center the navigation items */
+    }
+
+    nav ul li {
+        display: inline-block; /* Stack list items horizontally */
+        padding-left: 0px;
+        font-size: 10px;
+        /* margin: 0 10px; */
+    }
+    .links{
+        padding-left: 0px;
+    }
+
+   
+    
+
+    h1 {
+        font-size: 24px; /* Reduce the font size */
+    }
+    #q{
+        padding-left: 100px;
+        margin-top: 100px;
+        position: absolute;
+        color: white;
+    }
+    #w{
+        padding-left: 100px;
+        margin-top: 150px;
+        position: absolute;
+        color: white;
+    }
+    #e{
+        padding-left: 100px;
+        margin-top: 200px;
+        position: absolute;
+        color: white;
+    }
+    #r{
+        padding-left: 100px;
+        margin-top: 250px;
+        position: absolute;
+        color: white;
+    }
+    button{
+        position: absolute;
+        margin-left: 30px;
+        top: 200px;
+        margin-top: 400px;
+        background-color: rgba(213, 36, 36, 0.557);
+    
+    }
+    .links{
+        color: white;
+        font-size: 20px;
+
+    }
+    .listItems{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+
+    button {
+        font-size: 16px; /* Adjust button font size */
+        /* padding: 8px 20px;  */
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .honey h1 {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .card {
+        width: 90%; /* Make cards full width */
+        margin: 10px auto; /* Center the cards and add margin */
+    }
+
+    .special h1 {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .carousel-item img {
+        height: 200px; /* Reduce carousel image height */
+    }
+
+    .north {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        padding: 20px 0; /* Add padding */
+        
+    }
+
+    .north h1 {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .contains {
+        width: 150px; /* Adjust each image width */
+        margin: 60px 0; /* Adjust margin between images */
+    }
+
+    .group1 {
+        width: 150px; /* Adjust image size */
+        height: 150px; /* Adjust image size */
+        border-radius: 20px; /* Apply consistent border radius */
+    }
+
+    .northe {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        padding: 20px 0; /* Add padding */
+        flex-wrap: wrap;
+    }
+
+    .containss {
+        width: 200px; /* Make the feature cards full width */
+        margin-bottom: 0px; /* Reduce margin between feature cards */
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .group1s {
+        width: 200px; /* Make the images responsive */
+        height: auto; /* Keep the aspect ratio */
+        border-radius: 20px; /* Apply consistent border radius */
+    }
+
+    #ov, #uu {
+        text-align: center; /* Center the text */
+    }
+
+    .northes {
+        flex-direction: column; /* Stack testimonial items vertically */
+        align-items: center; /* Center testimonial items */
+        padding: 20px 0; /* Add padding */
+    }
+
+    .containsss {
+        width: 250px; /* Make the testimonials full width */
+        height: 300px;
+        margin-bottom: 0px; /* Reduce margin between testimonials */
+        margin-left: 10px;
+    }
+
+    .group1ss {
+        width: 250px; /* Make the images responsive */
+        height: auto; /* Keep the aspect ratio */
+        border-radius: 20px; /* Apply consistent border radius */
+    }
+
+    .brands {
+        font-size: 14px; /* Adjust the size of the icons */
+    }
+
+    h6 {
+        font-size: 18px; /* Adjust the footer text size */
+    }
+    #butt{
+        margin-top: 420px;
+        
+    }
+
+    .south {
+        padding: 10px 0; /* Add padding for spacing */
+    }
+    #our{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .frst{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+      margin-right: 10px;
+      
+    }
+    .footer{
+        /* left: 100px; */
+        background-color: white;
+        color:black;
+    }
+    .footer h5{
+        font-weight: 600;
+        padding-left: 70px;
+    }
+    .sis{
+        padding-left: 60px;
+    }
+    .footer h3{
+        padding-left: 70px;
+        font-weight: 100;
+        font-size: 20px;
+    } 
+    .imw{
+        width: 200px;
+        padding-left: 100px;
+    }
+
+}
